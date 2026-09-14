@@ -40,6 +40,10 @@ docker run -d \
 
 Other install options are in the [deployment guide](https://usememos.com/docs/deploy).
 
+## Environment & Dependencies
+
+For local development or production deployment, see the [Environment & Dependencies guide](docs/environment.md) for required runtime versions (Go 1.27.0, Node.js >=24, pnpm 11.0.1), database options (SQLite / MySQL / PostgreSQL), Docker deployment details, toolchain setup (buf, golangci-lint, biome), and system-level dependencies.
+
 ## Web Clipper
 
 Save pages, selections, and images from your browser straight into Memos as source-linked Markdown. Get the [Memos Web Clipper](https://usememos.com/web-clipper) for [Chrome](https://chromewebstore.google.com/detail/memos-web-clipper/nebaoebnljalfegiidibihhkebeiklbl) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/memos-web-clipper/).
